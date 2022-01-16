@@ -11,6 +11,7 @@ import Login from "./EmailLogin";
 import createUser from "../../config/api/createUser";
 import logOut from "../../config/firebase/signOut";
 import { auth } from "../../config/firebase/firebase";
+
 export default function LoginUI({
   setShowLogin,
   setOpenFail,
